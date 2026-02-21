@@ -1,1 +1,79 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana & Liz - Nuestra Boda Boho</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --terracota: #c17f59;
+            --sage: #9caf88;
+            --cream: #f5f1e8;
+            --sand: #e6ddd0;
+            --brown: #5d4e37;
+            --rust: #a0522d;
+            --olive: #6b7c5c;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--brown);
+            background-color: var(--cream);
+            line-height: 1.6;
+        }
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, rgba(193,127,89,0.2) 0%, rgba(156,175,136,0.3) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .hero-content {
+            text-align: center;
+            padding: 3rem;
+            background: rgba(245, 241, 232, 0.95);
+            max-width: 600px;
+            margin: 20px;
+            border: 1px solid var(--sand);
+        }
+        .names {
+            font-family: 'Amatic SC', cursive;
+            font-size: 5rem;
+            color: var(--rust);
+        }
+        .ampersand {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3rem;
+            color: var(--olive);
+        }
+        .subtitle {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-top: 1.5rem;
+        }
+        .date-hero {
+            font-family: 'Amatic SC', cursive;
+            font-size: 2.5rem;
+            color: var(--terracota);
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="names">Diana</h1>
+            <span class="ampersand">&</span>
+            <h1 class="names">Liz</h1>
+            <p class="subtitle">Nos Casamos</p>
+            <p class="date-hero">16 de Mayo de 2026</p>
+        </div>
+    </section>
+</body>
+</html>
